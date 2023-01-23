@@ -117,4 +117,10 @@ main {
     color:#E5E5E5;
     text-align:center;
 }
-   
+
+
+@media screen and (max-widht:480px){
+    body {
+       background: red; 
+    }
+}
