@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	    <head>
+            <meta charset="UTF-8">
+           
+		        <link rel="stylesheet" href="reset.css"> 
+                <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&family=Montserrat:ital@1&display=swap" rel="stylesheet">
+                <link rel="stylesheet" href="style.css">
+                
+                <title>codificador</title>
+        </head>
+        <body>
+            <header>
+                    <div class="logo">
+                        <img src="/imagem/logo.png" alt="logotipo da empresa">
+                    </div>
+                    
+            </header>
+            <main>  
+                <section>                          
+                    <textarea class="input-text" id="input-texto"cols="21"  rows="4" type="text"  placeholder="Digite seu texto"></textarea>
+                    
+                        <div class="informaçao">
+                            <h1>Apenas letras minusculas e sem acento</h1>
+                        </div>
+                        <div class="btn"> 
+                            <button class="padraoc"  onclick="criptografar()">Criptografar</button>
+                            <button class="padrao"  onclick="descriptografar()">Descriptografar</button>
+                        </div>
+                </section>
+                <section>
+                    <div class="output" id="output">     
+                    <textarea class="txt" cols="30" rows="10"></textarea>  
+                    <p>Digite um texto que você deseja criptografar ou descriptografar.</p>                                                               
+                    <button class="copiar"  onclick="copiar()">Copiar</button>  
+                    </div>                 
+                </section>
+            </main>
+            <footer class="footer">
+                <h2>Desenvolvido por Carlos FS Pires</h2>
+            </footer>
+            <script src="script.js"></script>
+
+        </body>    
+</html>
