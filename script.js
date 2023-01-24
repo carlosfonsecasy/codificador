@@ -9,7 +9,7 @@ function criptografar(){
   var resultCripto = texto.replaceAll(/e/g, "enter").replaceAll(/i/g, "imes").replaceAll(/a/g, "ai").replaceAll(/o/g, "ober").replaceAll(/u/g, "ufat")
 
 
-  document.getElementById('output').innerHTML = '<textarea readonly id="input-texto">' + resultCripto + 
+  document.getElementById('output').innerHTML = '<textarea cols="60"  rows="10" readonly id="input-texto">' + resultCripto + 
   '</textarea>' + '<button class="btn-copiar" id="copiar" onclick="copiar()">Copiar</button>'
 }
 

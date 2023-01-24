@@ -93,7 +93,7 @@ main {
     height:67px ;
     width: 328px;
 }
-.copiar{
+.btn-copiar{
     background-color:#E5E5E5 ;
     border:1px solid #0A3871  ;
     border-radius: 24px;
@@ -103,6 +103,7 @@ main {
     width: 328px;
     margin-left: 90px;
     margin-bottom: 20px;
+    
 }
  p{
     text-align: center;
