@@ -120,7 +120,8 @@ main {
 
 
 @media screen and (max-widht:480px){
-    body {
-       background: red; 
-    }
+        .main {
+            width: auto;
+        }
+      
 }
