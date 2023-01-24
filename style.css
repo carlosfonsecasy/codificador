@@ -49,14 +49,15 @@ main {
     }
 
 .output { 
-    background: white;
+    background: #E5E5E;
     
     background-repeat: no-repeat;
     border: none;
     border-radius: 25px;
     color:#0A3871;
     margin-left: 90px;
-    margin-right: 15px;
+    margin-right: 20px;
+
 }
 .txt{
     background: white;
@@ -64,7 +65,7 @@ main {
     background-image: url(./imagem/desenho.png);
     margin-left: 80px;
     margin-top: 20px;
-
+    
 }
 .output:focus:{
     outline: none;
