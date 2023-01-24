@@ -61,7 +61,7 @@ main {
 .txt{
     background: white;
     border: none;
-    background-image: url(/imagem/desenho.png);
+    background-image: url(./imagem/desenho.png);
     margin-left: 80px;
     margin-top: 20px;
 
