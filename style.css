@@ -60,7 +60,7 @@ main {
 
 }
 .txt{
-    background: white;
+    background: #E5E5E5;
     border: none;
     background-image: url(./imagem/desenho.png);
     margin-left: 80px;
@@ -94,6 +94,18 @@ main {
     height:67px ;
     width: 328px;
 }
+.copiar{
+    background-color:#E5E5E5 ;
+    border:1px solid #0A3871  ;
+    border-radius: 24px;
+    color :#0A3871;
+    cursor: pointer;
+    height:67px ;
+    width: 328px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+
 .btn-copiar{
     background-color:#E5E5E5 ;
     border:1px solid #0A3871  ;
@@ -106,9 +118,10 @@ main {
     margin-bottom: 20px;
     
 }
+
  p{
     text-align: center;
-    background: white;
+    background: #E5E5E5;
     margin-top: 20px;
     margin-bottom: 20px;
 
